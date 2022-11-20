@@ -1,0 +1,177 @@
+#main {
+    background-color: rgba(245, 240, 240, 0.692);
+    border-color: #eee;
+    border-radius: 3px;
+    margin: 40px 20px 35px 20px;
+    padding: 0px;
+}
+#body {
+    font-family: 'Crete Round', serif;;
+}
+#title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #eee;
+    padding: 1px 130px 1px 120px;
+    margin: -5px -3px -25px -3px;
+    border-radius: 20px;
+}
+
+}
+#img-div {
+    margin: 22px -100px;
+    background-color: white;
+}
+
+.tribute-info {
+    text-align: center;
+    background-color: #eee;
+    margin:10px -3px 0px;
+    font-size: 25px;
+    
+}
+@media screen and (max-width: 660px) {
+  #title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #eee;
+    padding: 1px;
+    margin: -5px -3px -25px -3px;
+    border-radius: 20px;
+    }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+  
+  #img-div {
+    margin: 0px -1px 20px;
+    background-color: white;
+    
+  }
+  
+  .list {
+    max-width: 100%;
+    padding: 1px 11px;
+    margin: 0px -3px 0px -3px;
+    background-color: #eee;
+    line-height: 2;
+    text-align: auto;
+ 
+    }
+
+    #videos {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #eee;
+        margin: 0px -7px -15px -2px;   
+    }
+  
+  #tom-sowell-bio {
+    max-width: 100%;
+    height: 200px;
+  }
+    .quote {
+        text-align: center;
+        background-color: #eee;
+        margin: -0px -3px;  
+    }
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+   #image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .list {
+        padding: 1px 560px;
+        background-color: #eee;
+        line-height: 2;
+        text-align: justify;
+    
+        }
+    #videos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #eee;
+    }
+  #tom-sowell-bio {
+    max-width: 100%;
+    height: 260px;
+  }
+    .quote {
+        text-align: center;
+        background-color: #eee;
+        margin: 10px 0px;
+    }
+}
+
+.sugar-cane-study {
+    margin: 50px;
+}
+
+.firstquote {
+    margin: 50px;
+}
+footer {
+    text-align: center;
+    background-color: #eee;
+    margin: -20px -3px 0px -3px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.tribute-link {
+    color: rgb(0, 162, 255);
+}
+
+.tribute-link:hover {
+    color: green;
+}
+
+.says {
+    color: rgb(0, 162, 255);
+}
+
+.says:hover {
+    color: green;
+}
+.knowledge-link {
+    color: rgb(0, 162, 255);
+}
+
+.knowledge-link:hover {
+    color: green;
+}
+
+.milton-link {
+    color: rgb(0, 162, 255);
+}
+
+.milton-link:hover {
+    color: green;
+}
